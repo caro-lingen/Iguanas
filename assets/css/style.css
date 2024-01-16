@@ -1,0 +1,74 @@
+.container header{
+    background-color: black;
+    color: white;
+    height: 80;
+    display: flex;
+    justify-content: center;
+    font-family:Raleway, medium ;
+}
+
+main .bg-img{
+    height: 727px;
+    background-image: url("../img/bg-header.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.resumen{
+    display: flex;
+    padding: 40px; 
+    border: 50px;
+    background-color: black;
+    justify-content: space-between;
+    
+
+}
+.texto{
+   text-align: left;
+   color: white;
+   background-color: black;
+   font-family:Raleway, light;
+   padding: 50px;
+   
+   
+}
+
+.iguana-1{
+    padding:80px ;
+    }
+
+.propiedades{
+    background-color:#1E1A13 ;
+    color: white;
+    font-family:Raleway, medium ;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.tipologia{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1E1A13;
+    color: white;
+   justify-content: space-around;
+   padding: 10px;
+}
+
+
+
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer{
+    background-color: #1E1A13;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+}
